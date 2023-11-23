@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">ChibaweM</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#profile">Home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">ChibaweM</div>
+      <div class="hambuger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section_pic">
+        <img id="profilePic" src="./assets/profilePicture.jpg" alt="My picture" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I am</p>
+        <h1>Mkwenya Chibawe</h1>
+        <p class="section_text_p2">Front end developer</p>
+        <div class="btn_Container">
+          <button id="openPdfButton" class="btn btn_color_2">
+            Download CV
+          </button>
+          <button class="btn btn_color_1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials">
+          <img
+            id="openLinkdinButton"
+            src="./assets/linkedin.png"
+            alt="Linkedin"
+            class="icon"
+          />
+          <img
+            id="openGithubButton"
+            src="./assets/github.png"
+            alt="Github"
+            class="icon"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get to know more</p>
+        <p class="title">About Me</p>
+        
+    </section>
+  </body>
+</html>
