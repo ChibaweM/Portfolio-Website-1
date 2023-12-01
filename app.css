@@ -309,6 +309,6 @@ section {
   width: 400px;
 }
 
-#sizingImage {
-  width: auto; 
+.sizingImage {
+  height: 2rem;
 }
