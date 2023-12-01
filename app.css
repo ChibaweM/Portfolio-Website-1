@@ -309,6 +309,12 @@ section {
   width: 400px;
 }
 
-.sizingImage {
+.profilePic3 {
+  border-radius: 5%;
+  width: 400px;
+}
+
+.icons {
   height: 2rem;
+  margin-top: 1rem;
 }
