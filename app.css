@@ -226,7 +226,7 @@ section {
 
 .btn_color_1,
 .btn_color_2 {
-    border: rgb(53, 53,53);
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn_color_1:hover,
@@ -255,4 +255,60 @@ section {
 
 .btn_container{
     gap: 1rem;
+}
+
+
+/* About */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container{
+  display: flex;
+}
+
+.about-pic{
+  border-radius: 2rem; 
+}
+
+.arrow{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container{
+  padding: 1.5;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  text-align: center;
+}
+
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+
+#profilePic {
+  border-radius: 50%;
+  width: 400px;
+}
+
+#sizingImage {
+  width: auto; 
 }
