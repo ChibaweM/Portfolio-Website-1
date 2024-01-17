@@ -32,7 +32,7 @@ openPdfButton.addEventListener("click", openPdfWindow);
 
 function openLinkedin() {
     // The path to your PDF file
-    var pdfPath = "https://www.linkedin.comhttps://www.linkedin.com/in/mkwenya-chibawe-a9b0741a8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTZxu5JN2Qk2ltEXOC3bfwQ%3D%3D";
+    var pdfPath = "linkedin.com/in/mkwenya-chibawe-a9b0741a8";
   
     // Open a new window with the specified PDF file
     window.open(pdfPath, '_blank');
