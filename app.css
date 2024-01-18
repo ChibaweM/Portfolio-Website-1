@@ -379,7 +379,6 @@ article .icon {
   transition: all .3s ease-in-out;
 }
 
-
 .details-container:hover {
   box-shadow: -3px 18px 20px 0px rgba(99,89,99,1);
 }
